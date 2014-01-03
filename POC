@@ -1,0 +1,3 @@
+// use this command in adb shell, it can display the reset PIN Activity without knowing the exist PIN
+am start -n com.android.settings/com.android.settings.Settings --activity-clear-task --es ":android:show_fragment" "com.android.settings.ChooseLockPassword\$ChooseLockPasswordFragment" --ez confirm_crede
+ntials false
